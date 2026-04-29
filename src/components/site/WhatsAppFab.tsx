@@ -4,7 +4,7 @@ const WHATSAPP = "447000000000";
 
 export const WhatsAppFab = () => (
   <a
-    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hello Mahraja Travelling, I'd like to plan a trip.")}`}
+    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hello Maharaja Travels, I'd like to plan a trip.")}`}
     target="_blank"
     rel="noreferrer"
     aria-label="Chat on WhatsApp"

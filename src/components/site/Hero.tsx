@@ -51,7 +51,7 @@ export const Hero = () => {
               className="mt-8 text-lg md:text-xl text-white/85 max-w-2xl leading-relaxed animate-fade-in font-light"
               style={{ animationDelay: "0.2s", opacity: 0 }}
             >
-              Mahraja Travelling Agency crafts seamless international
+              Maharaja Travels crafts seamless international
               experiences — premium flights, expert visa support and bespoke
               tours, designed around you.
             </p>

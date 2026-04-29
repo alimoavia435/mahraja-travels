@@ -50,7 +50,7 @@ export const Navbar = () => {
               scrolled ? "text-primary" : "text-white",
             )}
           >
-            Mahraja <span className="font-normal opacity-80">Travelling</span>
+            Maharaja <span className="font-normal opacity-80">Travels</span>
           </span>
         </a>
 

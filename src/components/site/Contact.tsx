@@ -18,7 +18,7 @@ export const Contact = () => {
       return;
     }
     const text = encodeURIComponent(
-      `Hello Mahraja Travelling,\n\nName: ${form.name}\nPhone: ${form.phone}\n\n${form.message}`,
+      `Hello Maharaja Travels,\n\nName: ${form.name}\nPhone: ${form.phone}\n\n${form.message}`,
     );
     window.open(`https://wa.me/${WHATSAPP}?text=${text}`, "_blank");
     toast.success("Opening WhatsApp — we'll reply shortly!");
@@ -53,8 +53,8 @@ export const Contact = () => {
                 {
                   icon: Mail,
                   label: "Email",
-                  value: "info@Mahrajatravelling.co.uk",
-                  href: "mailto:info@Mahrajatravelling.co.uk",
+                  value: "info@maharajatravels.co.uk",
+                  href: "mailto:info@maharajatravels.co.uk",
                 },
                 {
                   icon: MapPin,
@@ -86,7 +86,7 @@ export const Contact = () => {
                 className="w-full mt-2"
               >
                 <a
-                  href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hello Mahraja Travelling, I'd like to plan a trip.")}`}
+                  href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hello Maharaja Travels, I'd like to plan a trip.")}`}
                   target="_blank"
                   rel="noreferrer"
                 >

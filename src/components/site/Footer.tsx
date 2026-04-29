@@ -19,7 +19,7 @@ export const Footer = () => {
                 <Plane className="h-5 w-5 -rotate-45" />
               </span>
               <span className="font-display text-xl font-bold">
-                Mahraja Travelling
+                Maharaja Travels
               </span>
             </div>
             <p className="mt-5 text-primary-foreground/70 max-w-md leading-relaxed">
@@ -69,7 +69,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-accent shrink-0" />
-                <span>info@Mahrajatravelling.co.uk</span>
+                <span>info@maharajatravels.co.uk</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
@@ -81,7 +81,7 @@ export const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row gap-3 items-center justify-between text-sm text-primary-foreground/60">
           <div>
-            © {new Date().getFullYear()} Mahraja Travelling Agency. All rights
+            © {new Date().getFullYear()} Maharaja Travels. All rights
             reserved.
           </div>
           <div className="flex gap-6">

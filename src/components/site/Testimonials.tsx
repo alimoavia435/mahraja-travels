@@ -9,7 +9,7 @@ const reviews = [
     name: "Rajesh Patel",
     role: "London, UK",
     avatar: a1,
-    text: "Mahraja made our family trip to Switzerland absolutely seamless. From flights to visas to hotels — every detail was handled with care. Highly recommended!",
+    text: "Maharaja Travels made our family trip to Switzerland absolutely seamless. From flights to visas to hotels — every detail was handled with care. Highly recommended!",
   },
   {
     name: "Priya Sharma",
@@ -21,7 +21,7 @@ const reviews = [
     name: "James Mitchell",
     role: "Birmingham, UK",
     avatar: a3,
-    text: "Professional, responsive and trustworthy. Mahraja Travelling has become our go-to agency for every international trip. Five stars without hesitation.",
+    text: "Professional, responsive and trustworthy. Maharaja Travels has become our go-to agency for every international trip. Five stars without hesitation.",
   },
 ];
 

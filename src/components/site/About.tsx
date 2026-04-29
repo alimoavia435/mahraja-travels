@@ -121,7 +121,7 @@ export const About = () => {
               journeys, one traveller at a time.
             </h2>
             <p className="mt-7 text-muted-foreground text-lg leading-relaxed">
-              At Mahraja Travelling Agency, we combine years of expertise with a
+              At Maharaja Travels, we combine years of expertise with a
               deep love for travel. From the United Kingdom to destinations
               across Europe, Asia and beyond, we make international travel
               simple, safe and inspiring.
