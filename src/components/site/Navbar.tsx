@@ -29,7 +29,7 @@ export const Navbar = () => {
         "fixed top-0 inset-x-0 z-50 transition-all duration-500",
         scrolled
           ? "bg-background/85 backdrop-blur-lg shadow-soft border-b border-border"
-          : "bg-transparent"
+          : "bg-transparent",
       )}
     >
       <nav className="container-px mx-auto max-w-7xl flex items-center justify-between h-20">
@@ -37,7 +37,9 @@ export const Navbar = () => {
           <span
             className={cn(
               "h-10 w-10 rounded-full grid place-items-center transition-colors",
-              scrolled ? "bg-primary text-primary-foreground" : "bg-white/15 backdrop-blur text-white"
+              scrolled
+                ? "bg-primary text-primary-foreground"
+                : "bg-white/15 backdrop-blur text-white",
             )}
           >
             <Plane className="h-5 w-5 -rotate-45" />
@@ -45,10 +47,10 @@ export const Navbar = () => {
           <span
             className={cn(
               "font-display text-lg font-bold tracking-tight transition-colors",
-              scrolled ? "text-primary" : "text-white"
+              scrolled ? "text-primary" : "text-white",
             )}
           >
-            Maharaj <span className="font-normal opacity-80">Travelling</span>
+            Mahraja <span className="font-normal opacity-80">Travelling</span>
           </span>
         </a>
 
@@ -59,7 +61,9 @@ export const Navbar = () => {
               href={l.href}
               className={cn(
                 "text-sm font-medium transition-colors relative group",
-                scrolled ? "text-foreground/80 hover:text-primary" : "text-white/90 hover:text-white"
+                scrolled
+                  ? "text-foreground/80 hover:text-primary"
+                  : "text-white/90 hover:text-white",
               )}
             >
               {l.label}
@@ -78,7 +82,7 @@ export const Navbar = () => {
           onClick={() => setOpen(!open)}
           className={cn(
             "lg:hidden p-2 rounded-md transition-colors",
-            scrolled ? "text-primary" : "text-white"
+            scrolled ? "text-primary" : "text-white",
           )}
           aria-label="Toggle menu"
         >
@@ -100,7 +104,9 @@ export const Navbar = () => {
               </a>
             ))}
             <Button asChild variant="hero" className="mt-2">
-              <a href="#contact" onClick={() => setOpen(false)}>Plan Your Trip</a>
+              <a href="#contact" onClick={() => setOpen(false)}>
+                Plan Your Trip
+              </a>
             </Button>
           </div>
         </div>

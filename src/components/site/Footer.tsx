@@ -1,4 +1,12 @@
-import { Plane, Facebook, Instagram, Twitter, Phone, Mail, MapPin } from "lucide-react";
+import {
+  Plane,
+  Facebook,
+  Instagram,
+  Twitter,
+  Phone,
+  Mail,
+  MapPin,
+} from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -10,10 +18,14 @@ export const Footer = () => {
               <span className="h-10 w-10 rounded-full bg-accent grid place-items-center">
                 <Plane className="h-5 w-5 -rotate-45" />
               </span>
-              <span className="font-display text-xl font-bold">Maharaj Travelling</span>
+              <span className="font-display text-xl font-bold">
+                Mahraja Travelling
+              </span>
             </div>
             <p className="mt-5 text-primary-foreground/70 max-w-md leading-relaxed">
-              Your trusted partner for international travel. Premium flight booking, visa assistance and bespoke tour planning across the UK and worldwide.
+              Your trusted partner for international travel. Premium flight
+              booking, visa assistance and bespoke tour planning across the UK
+              and worldwide.
             </p>
             <div className="flex gap-3 mt-6">
               {[Facebook, Instagram, Twitter].map((Icon, i) => (
@@ -40,7 +52,9 @@ export const Footer = () => {
                 { l: "Contact", h: "#contact" },
               ].map((l) => (
                 <li key={l.l}>
-                  <a href={l.h} className="hover:text-accent transition-colors">{l.l}</a>
+                  <a href={l.h} className="hover:text-accent transition-colors">
+                    {l.l}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -55,7 +69,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-accent shrink-0" />
-                <span>info@maharajtravelling.co.uk</span>
+                <span>info@Mahrajatravelling.co.uk</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
@@ -66,10 +80,17 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row gap-3 items-center justify-between text-sm text-primary-foreground/60">
-          <div>© {new Date().getFullYear()} Maharaj Travelling Agency. All rights reserved.</div>
+          <div>
+            © {new Date().getFullYear()} Mahraja Travelling Agency. All rights
+            reserved.
+          </div>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-accent transition-colors">Privacy</a>
-            <a href="#" className="hover:text-accent transition-colors">Terms</a>
+            <a href="#" className="hover:text-accent transition-colors">
+              Privacy
+            </a>
+            <a href="#" className="hover:text-accent transition-colors">
+              Terms
+            </a>
           </div>
         </div>
       </div>

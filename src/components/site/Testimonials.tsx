@@ -9,7 +9,7 @@ const reviews = [
     name: "Rajesh Patel",
     role: "London, UK",
     avatar: a1,
-    text: "Maharaj made our family trip to Switzerland absolutely seamless. From flights to visas to hotels — every detail was handled with care. Highly recommended!",
+    text: "Mahraja made our family trip to Switzerland absolutely seamless. From flights to visas to hotels — every detail was handled with care. Highly recommended!",
   },
   {
     name: "Priya Sharma",
@@ -21,7 +21,7 @@ const reviews = [
     name: "James Mitchell",
     role: "Birmingham, UK",
     avatar: a3,
-    text: "Professional, responsive and trustworthy. Maharaj Travelling has become our go-to agency for every international trip. Five stars without hesitation.",
+    text: "Professional, responsive and trustworthy. Mahraja Travelling has become our go-to agency for every international trip. Five stars without hesitation.",
   },
 ];
 
@@ -37,7 +37,9 @@ export const Testimonials = () => {
     <section id="testimonials" className="py-24 md:py-32 bg-background">
       <div className="container-px mx-auto max-w-7xl">
         <div className="max-w-2xl mx-auto text-center mb-16">
-          <span className="text-accent font-semibold text-sm uppercase tracking-widest">Testimonials</span>
+          <span className="text-accent font-semibold text-sm uppercase tracking-widest">
+            Testimonials
+          </span>
           <h2 className="mt-3 font-display text-4xl md:text-5xl font-bold text-primary leading-tight text-balance">
             Loved by travellers worldwide
           </h2>
@@ -65,8 +67,12 @@ export const Testimonials = () => {
                   height={56}
                 />
                 <div>
-                  <div className="font-semibold text-primary">{reviews[i].name}</div>
-                  <div className="text-sm text-muted-foreground">{reviews[i].role}</div>
+                  <div className="font-semibold text-primary">
+                    {reviews[i].name}
+                  </div>
+                  <div className="text-sm text-muted-foreground">
+                    {reviews[i].role}
+                  </div>
                 </div>
               </div>
             </div>
@@ -74,7 +80,9 @@ export const Testimonials = () => {
 
           <div className="flex items-center justify-center gap-4 mt-8">
             <button
-              onClick={() => setI((p) => (p - 1 + reviews.length) % reviews.length)}
+              onClick={() =>
+                setI((p) => (p - 1 + reviews.length) % reviews.length)
+              }
               className="h-11 w-11 rounded-full bg-card border border-border shadow-soft hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all grid place-items-center"
               aria-label="Previous"
             >
